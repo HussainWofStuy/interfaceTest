@@ -1,4 +1,4 @@
-ublic class Prism extends Rectangle{
+public class Prism extends Rectangle{
 
     private double height;
 
@@ -9,6 +9,10 @@ ublic class Prism extends Rectangle{
 
     public double getHeight(){
 	return height;
+    }
+
+    public double getVolume(){
+	return super.getArea()*getHeight();
     }
 
     public String toString(){

@@ -12,7 +12,7 @@ public class Circle extends Shape implements Area{
     }
 
     public double getArea(){
-	return 2*Math.PI*radius;
+	return 2*Math.PI*getRadius();
     }
 
     public String toString(){

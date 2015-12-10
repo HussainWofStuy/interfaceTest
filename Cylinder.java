@@ -11,6 +11,10 @@ public class Cylinder extends Circle{
 	return height;
     }
 
+    public double getVolume(){
+	return super.getArea()*getHeight();
+    }
+
     public String toString(){
 	return "FIXME!";
     }
